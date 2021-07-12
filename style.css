@@ -1,0 +1,50 @@
+.container
+{
+    margin: auto;
+    width: 90%;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    margin-bottom: 20px;
+
+}
+header
+{
+    color: tomato;
+    text-align: center;
+    border-radius: 10px;
+}
+ .foto1
+{
+    background: url(https://picsum.photos/id/239/300/400) no-repeat ;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+    margin: 5px;
+}
+.foto2
+{
+    background: url(https://picsum.photos/id/337/300/400) no-repeat;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+}
+.foto3
+{
+    background: url(https://picsum.photos/id/437/300/400) no-repeat;
+    width: 30%;
+    height: 300px;
+    display: inline-block;
+}
+ @media  
+    (max-width: 640px)
+    {
+    .foto1,
+    .foto2,
+    .foto3
+    {
+        display: block;
+        width: 300px;
+        margin-bottom: 20px;
+        border: black solid 4px;
+    }
+} 
+
